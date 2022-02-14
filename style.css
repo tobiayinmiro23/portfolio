@@ -318,9 +318,9 @@ img {
   ul {
     position: absolute;
     transition: 1s;
-    top: 4.5rem;
+    top: 4rem;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: block;
     text-align: center;
     background-color: wheat;
