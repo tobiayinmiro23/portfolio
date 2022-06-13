@@ -437,6 +437,7 @@ img {
   }
   .pj {
     margin: 1.2rem;
+    Width:90%;
   }
 }
 @media only screen and (max-width: 463px) {
@@ -473,7 +474,7 @@ img {
 }
 @media only screen and (max-width: 441px) {
   .generalpj {
-    height: 15rem;
+    height: 16rem;
   }
 }
 @media only screen and (max-width: 436px) {
@@ -544,7 +545,7 @@ img {
     margin: 7% 8%;
   }
   .generalpj{
-    height: 13rem;
+    height: 15rem;
   }
 }
 @media only screen and (max-width: 322px) {
