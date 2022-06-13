@@ -98,7 +98,6 @@ a{
   margin-left: 2rem;
   outline: none;
   border: none;
-  background: rgb(0, 0, 0, 0.3);
   background: rgb(255, 255, 255, 0.13);
   border: 1px solid red;
   margin-top: 1rem;
@@ -119,7 +118,7 @@ a{
   background: red;
   outline: none;
   border: none;
-  border: 1px solid salmon;
+  border: 1px solid rgb(97, 5, 97);
   margin-top: 1rem;
   font-family: Tahoma, sans-serif;
   border-radius: 0.2rem;
