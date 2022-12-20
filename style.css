@@ -442,6 +442,9 @@ img {
     margin: 0.8rem;
     padding: 0.5rem;
   }
+  #home {
+  background: url(portfoliopic/5172658 (1).jpg) center;
+}
 }
 @media only screen and (max-width: 483px) {
   .phone {
