@@ -202,25 +202,15 @@ gsap.from('.skill14',{
     opacity:0,
     duration:1
 })
-gsap.from('#projects h1',{
-    scrollTrigger:{
-        trigger:'#projects h1',
-        toogleActions:'restart none restart none',
-        // scrub:true
-    },
-    opacity:0,
-    duration:1.5
-})
+
 // for the movie website
 gsap.from('.projec1',{
     scrollTrigger:{
         trigger:'.projec1',
         toogleActions:'restart none restart none',
-        // scrub:true
     },
     x:-50,
     scale:.8,
-    //opacity:0,
     duration:1.2
 })
 // for the restaurant website
@@ -228,11 +218,9 @@ gsap.from('.project2',{
     scrollTrigger:{
         trigger:'.project2',
         toogleActions:'restart none restart none',
-        // scrub:true
     },
     x:-50,
     scale:.8,
-  // opacity:0,
     duration:1.2
 })
 // for the construction company website
@@ -240,23 +228,19 @@ gsap.from('.project3',{
     scrollTrigger:{
         trigger:'.project3',
         toogleActions:'restart none restart none',
-        // scrub:true
     },
     x:-50,
     scale:.8,
-  // opacity:0,
     duration:1.2
 })
 // for the dictionary website
 gsap.from('.project4',{
     scrollTrigger:{
         trigger:'.project4',
-        toogleActions:'restart none restart none',
-        // scrub:true
+        toogleActions:'restart none restart none'
     },
     x:-50,
     scale:.8,
-    opacity:0,
     duration:1.2
 })
 // for the school website
@@ -264,11 +248,9 @@ gsap.from('.project5',{
     scrollTrigger:{
         trigger:'.project5',
         toogleActions:'restart none restart none',
-        // scrub:true
     },
     x:-50,
     scale:.8,
-    opacity:0,
     duration:1.2
 })
 // for the movie website
@@ -276,22 +258,9 @@ gsap.from('.project6',{
     scrollTrigger:{
         trigger:'.project6',
         toogleActions:'restart none restart none',
-        // scrub:true
     },
     x:-50,
     scale:.8,
-    opacity:0,
     duration:1.2
 })
-// for the movie website
-gsap.from('.project7',{
-    scrollTrigger:{
-        trigger:'.project7',
-        toogleActions:'restart none restart none',
-        // scrub:true
-    },
-    x:-50,
-    scale:.8,
-    opacity:0,
-    duration:1.2
-})
+
