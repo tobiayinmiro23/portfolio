@@ -220,7 +220,7 @@ gsap.from('.projec1',{
     },
     x:-50,
     scale:.8,
-    opacity:0,
+    //opacity:0,
     duration:1.2
 })
 // for the restaurant website
@@ -232,7 +232,7 @@ gsap.from('.project2',{
     },
     x:-50,
     scale:.8,
-    opacity:0,
+  // opacity:0,
     duration:1.2
 })
 // for the construction company website
@@ -244,7 +244,7 @@ gsap.from('.project3',{
     },
     x:-50,
     scale:.8,
-    opacity:0,
+  // opacity:0,
     duration:1.2
 })
 // for the dictionary website
