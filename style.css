@@ -112,10 +112,10 @@ a{
 /* skills */
 #skills {
   background: wheat;
+   padding-top: 1rem;
 }
 .skillcontainer h1 {
   text-align: center;
-  padding-top: 0.7rem;
   margin-bottom: 0.8rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -411,6 +411,7 @@ img {
   }
   #projects {
     padding: 0.4rem;
+    padding-top:1.3rem;
   padding-bottom: 1.7rem;
   }
   .btccontainer button{
