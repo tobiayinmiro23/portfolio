@@ -448,7 +448,7 @@ img {
     padding: 0.5rem;
   }
   #home {
-  background: url('/portfoliopic/5172658 (1).jpg') center;
+  background: url(portfoliopic/5172658 (1).jpg) center;
 
 }
 }
@@ -461,7 +461,7 @@ img {
   }
   .pj {
     margin: 2rem 1.2rem;
-    Width:80%;
+    Width:90%;
   }
 }
 @media only screen and (max-width: 473px) {
@@ -508,11 +508,6 @@ img {
 @media only screen and (max-width: 452px) {
   .ighandle {
     margin-left: 1rem;
-  }
-}
-@media only screen and (max-width: 441px) {
-  .generalpj {
-    height: 16rem;
   }
 }
 @media only screen and (max-width: 436px) {
