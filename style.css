@@ -1,0 +1,726 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  box-sizing: border-box;
+}
+/* navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+body {
+  max-width: 1700px;
+  margin: auto;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  margin-left: auto;
+  display: flex;
+}
+li {
+  list-style: none;
+  margin: 0px 4rem;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.navigation h1 {
+  color: white;
+  font-size: 2rem;
+  margin-right: auto;
+  margin-left: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  height: 1.9rem;
+  width: 1.49rem;
+  padding: 0.1rem;
+  cursor: pointer;
+  display: none;
+}
+/* home */
+#home {
+  background: url(portfoliopic/5172658.jpg) center;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 39rem;
+}
+.intro {
+  margin-top: 8%;
+  margin-left: 7%;
+}
+.intro h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro h3 {
+  color: white;
+  font-size: 1.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro p {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 0.8rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+ul li a {
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+.contactbtn {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.btccontainer {
+  display: flex;
+  align-items: center;
+}
+.btccontainer button {
+  padding: 0.7rem 2rem;
+  margin-right: 2rem;
+  outline: none;
+  border: none;
+  background: rgb(255, 255, 255, 0.13);
+  border: 1px solid red;
+  margin-top: 1rem;
+  font-family: Tahoma, sans-serif;
+  border-radius: 0.2rem;
+  color: red;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.btccontainer button:hover{
+  background: rgb(255, 0, 0, 0.8);
+  color: white;
+}
+
+/* skills */
+#skills {
+  background: wheat;
+   padding-top: 1rem;
+}
+.skillcontainer h1 {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.general {
+  width: 20rem;
+  height: fit-content;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  background: salmon;
+  text-align: center;
+  margin: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.general:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.general h3 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.skillimg {
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.word {
+  height: 6.9rem;
+}
+.word h3 {
+  margin-top: 1.5rem;
+}
+/* projects */
+.generalpj {
+  width: 100%;
+  height: 19rem;
+  /* border-radius: 0.3rem 0.3rem 0rem 0rem !important; */
+}
+ .generalpj img{
+  border-radius: 0.2rem 0.2rem 0rem 0rem !important;
+}
+
+.pj h4 {
+  padding: 0.4rem 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.pj h4 a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: blue;
+  text-decoration: underline;
+}
+.pj {
+  width: 23rem;
+  background: white;
+  margin: 2rem;
+  border-radius: 0.2rem;
+  padding-bottom: 0.8rem;
+  box-shadow: 0px 1px 24px rgb(0, 0, 0, 0.2);
+}
+.projctWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projec1  .h4{
+  font-size: 0.96rem !important;
+}
+#projects {
+  background: salmon;
+  padding: 1rem;
+}
+
+img {
+  width: 100% !important;
+  height: 100%;
+}
+#projects h1 {
+  text-align: center;
+  margin-bottom: 0rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* contact */
+#contact h1 {
+  margin-bottom: 2.8rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.whatsappimg,
+.emailimg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.emailimg {
+  min-width: 1.5rem;
+}
+.whatsapp {
+  display: flex;
+  align-items: center;
+}
+.contact {
+  width: 38rem;
+  height: 13rem;
+  margin: auto;
+  border-radius: 0.7rem;
+  padding-top: 2rem;
+  text-align: center;
+  background: salmon;
+  text-align: center;
+}
+.whatsapp h3 {
+  color: black;
+}
+.contact1,
+.contact2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact {
+  background: wheat;
+  padding-bottom: 3rem;
+}
+.phone {
+  margin-left: 9.3rem;
+}
+.ighandle {
+  margin-left: 3.5rem;
+}
+.contact1 {
+  margin-bottom: 5rem;
+}
+.ig {
+  color: red;
+  color: black;
+}
+/* javascript */
+.hmaburgermenu {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  transition: 1s;
+}
+.none {
+  display: none;
+}
+.fixed {
+  position: relative;
+  top: 0%;
+  background-color: salmon;
+}
+
+img {
+  width: 100%;
+}
+@media only screen and (max-width: 1518px) {
+  .intro {
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 1348px) {
+  .intro {
+    margin-left: 3%;
+    margin-top: 12%;
+  }
+  .intro h1 {
+    font-size: 3.7rem;
+  }
+}
+@media only screen and (max-width: 1149px) {
+  li {
+    margin: 0px 2.4rem;
+  }
+  .navigation{
+    padding: 1rem 0rem;
+  }
+}
+@media only screen and (max-width: 1013px) {
+  li a {
+    color: black !important;
+    font-family: monospace;
+  }
+  .menu {
+    display: block;
+    margin-right: 1rem;
+  }
+  ul {
+    position: absolute;
+    transition: 1s;
+    top: 4rem;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    background-color: wheat;
+    left: -100%;
+  }
+  li {
+    margin: 3rem;
+  }
+  li:hover {
+    text-shadow: 0px 2px 6px white;
+  }
+}
+@media only screen and (max-width: 898px) {
+  .pj {
+    width: 20rem;
+  }
+  .generalpj {
+    height: 17rem;
+  }
+  
+}
+@media only screen and (max-width: 878px) {
+  .intro h1 {
+    font-size: 3.2rem;
+  }
+
+  .intro h3 {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 803px) {
+  .pj {
+    width: 18rem;
+  }
+  .generalpj {
+    height: 15rem;
+  }
+}
+@media only screen and (max-width: 739px) {
+  .pj {
+    width: 18rem;
+    margin: 1rem;
+  }
+  .generalpj {
+    height: 15rem;
+  }
+ 
+}
+@media only screen and (max-width: 704px) {
+  .general{
+    width: 17rem;
+  }
+  
+}
+@media only screen and (max-width: 698px) {
+  .contact {
+    width: 90%;
+    border-radius: 0.2rem;
+  }
+  .general {
+    margin-bottom: 1rem;
+  }
+  .skillcontainer {
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 672px) {
+  .pj {
+    margin: 1rem;
+    width: 21rem;
+  }
+  .generalpj {
+    height: 17rem;
+  }
+}
+@media only screen and (max-width: 637px) {
+  .intro h1 {
+    font-size: 2.7rem;
+  }
+  .intro h3 {
+    font-size: 1.5rem;
+  }
+  .ecom1-container,
+  .construction1-container {
+    width: 100%;
+    height: fit-content;
+  }
+  #projects {
+    padding: 0.4rem;
+    padding-top:1.3rem;
+  padding-bottom: 1.7rem;
+  }
+  .btccontainer button{
+    padding: 0.62rem 1.1rem;
+  }
+  .btccontainer button {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (max-width: 704px) {
+  .general{
+    width: 15.5rem;
+  }
+}
+@media only screen and (max-width: 563px) {
+  .general{
+    width: 14rem;
+    margin: 0.8rem 1rem;
+  }
+  .intro {
+    margin-left: 1.45rem;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .projectinfo h3 {
+    line-height: 1.23rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 514px) {
+  .general{
+    width: 13rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
+  }
+  #home {
+  background: url('/portfoliopic/5172658 (1).jpg') center;
+
+}
+}
+@media only screen and (max-width: 483px) {
+  .phone {
+    margin-left: 12%;
+  }
+  .ighandle {
+    margin-left: 2.5rem;
+  }
+  .pj {
+    margin: 2rem 1.2rem;
+    Width:80%;
+  }
+}
+@media only screen and (max-width: 473px) {
+  .general{
+    width: 12rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
+  }
+  .skillimg{
+      width: 3.15rem;
+      height: 3.15rem;
+  }
+  .word{
+    height: 5.7rem;
+  }
+}
+@media only screen and (max-width: 463px) {
+  .intro h1 {
+    font-size: 2.3rem;
+  }
+  .intro h3 {
+    font-size: 1.22rem;
+  }
+  #home {
+    height: 33rem;
+  }
+  .navigation h1 {
+    font-size: 1.6rem;
+  }
+  .menu {
+    height: 1.7rem;
+  }
+  .projectinfo h3 {
+    padding: 0.4rem;
+    font-size: 1.1rem;
+  }
+  .hmaburgermenu {
+    top: 4.12rem;
+  }
+  .intro {
+    margin-top: 5rem;
+  }
+}
+@media only screen and (max-width: 452px) {
+  .ighandle {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 441px) {
+  .generalpj {
+    height: 16rem;
+  }
+}
+@media only screen and (max-width: 436px) {
+  .general{
+    width: 11rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
+  }
+  .skillimg{
+      width: 3.15rem;
+      height: 3.15rem;
+  }
+  .phone {
+    margin-left: 0rem;
+  }
+  .ighandle {
+    margin-left: 0rem;
+  }
+  .whatsapp {
+    text-align: center;
+    margin: 7% 20%;
+  }
+  .contact1,
+  .contact2 {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .contact {
+    padding: 1.3rem 0rem;
+    height: fit-content;
+  }
+}
+  
+@media only screen and (max-width: 403px) {
+  .general{
+    width: 10.4rem;
+    margin: 0.7rem;
+    padding: 0.4rem;
+  }
+  .skillimg{
+      width: 3.1rem;
+      height: 3.1rem;
+  }
+  .word{
+    height: 5.45rem;
+  }
+}
+@media only screen and (max-width: 394px) {
+  .navigation h1 {
+    margin-left: 0.7rem;
+  }
+  .menu {
+    margin-right: 0.5rem;
+  }
+ 
+}
+@media only screen and (max-width: 377px) {
+  .general{
+    width: 10rem;
+    margin: 0.7rem 0.6rem;
+    padding: 0.3rem;
+  }
+  .skills .skillimg{
+    height: 2.6rem;
+    width: 2.6rem;
+  }
+  .word{
+    height: 4.75rem;
+  }
+  .pj  {
+    padding-bottom: 0.8rem;
+    }
+}
+@media only screen and (max-width: 370px) {
+  .pj h4 {
+    padding: 0rem 0.5rem;
+    padding-top: 0.6rem;
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+  }
+  .whatsapp {
+    text-align: center;
+    margin: 7% 10%;
+  }
+}
+@media (max-height: 369px) {
+  nav ul li{
+    margin: 1.5rem;
+  }
+}
+@media only screen and (max-width: 358px) {
+  .general{
+    width: 9rem;
+  }
+   .skills .general h3{
+    font-size: 1rem;
+  }
+  .skills .skillimg{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .word{
+    height: 4.45rem;
+  }
+  
+  .intro h1 {
+    font-size: 1.9rem;
+  }
+  .intro h3 {
+    font-size: 1.1rem;
+  }
+  .skillcontainer h1,
+  #projects h1,
+  #contact h1 {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 346px) {
+  .whatsapp {
+    text-align: center;
+    margin: 7% 8%;
+  }
+  .generalpj{
+    height: 13.4rem;
+  }
+}
+@media only screen and (max-width: 326px) {
+  .general{
+    width: 8.65rem;
+    margin: 0.7rem 0.5rem;
+    padding: 0.2rem;
+  }
+  .general h3{
+    font-size: 1.0rem;
+  }
+  .skillcontainer{
+    padding-bottom: 1rem;
+  }
+  .skillimg{
+      width: 2.8rem;
+      height: 2.8rem;
+  }
+  .word{
+    height: 4.55rem;
+  }
+}
+@media only screen and (max-width: 322px) {
+
+  .whatsapp {
+    text-align: center;
+    margin: 7%;
+  }
+}
+@media only screen and (max-width: 311px) {
+  .general{
+    width: 8rem;
+  }
+  .pj{
+    width: 95%;
+    margin:1rem 0rem;
+  }
+  .generalpj{
+    height: 13rem;
+  }
+  .skillcontainer{
+    padding-bottom: 0.8rem;
+  }
+  .skillimg{
+      width: 2.6rem;
+      height: 2.6rem;
+  }
+  .word{
+    height: 4.35rem;
+  }
+}
+@media only screen and (max-width: 291px) {
+  .general{
+    width: 7.5rem;
+    border-radius: 3px;
+    margin: 0.45rem;
+  }
+}
+@media only screen and (max-width: 278px) {
+  .whatsapp{
+    font-size: 0.9rem;
+  }
+  .whatsappimg{
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  .email .emailimg{
+    height: 1.3rem;
+  }
+}
+@media only screen and (max-width: 269px) {
+  .general{
+    width: 80%;
+    margin: 0.5rem 0rem;
+  }
+}
+@media (max-height: 262px) {
+  nav ul li{
+    margin: 0.7rem;
+  }
+}
+@media (max-height: 207px) {
+  nav ul li{
+    margin: 0.45rem;
+  }
+}
