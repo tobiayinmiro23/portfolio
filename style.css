@@ -545,14 +545,24 @@ img {
 .contact2 h3{
   display: none;
 }
+.contact1 .whatsapp .whatsappimg{
+  width: 2rem;
+  height: 1.8rem;
+}
 .contact1 .phone .whatsappimg{
-  margin-left: 30%;
+  margin-left: 27%;
+  width: 2rem;
+  height: 1.8rem;
 }
 .contact2 .email .emailimg{
-  margin-left: 60%;
+  margin-left: 57%;
+  width: 2rem;
+  height: 1.8rem;
 }
 .contact2 .ighandle .whatsappimg{
-  margin-left: 88%;
+  margin-left: 87%;
+  width: 2.1rem;
+  height: 1.8rem;
 }
 }
   
