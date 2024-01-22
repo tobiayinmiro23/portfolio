@@ -159,6 +159,7 @@ a{
 .generalpj {
   width: 100%;
   height: 19rem;
+  border-bottom: 1px solid #e0e0e0;
   /* border-radius: 0.3rem 0.3rem 0rem 0rem !important; */
 }
  .generalpj img{
@@ -448,7 +449,7 @@ img {
     padding: 0.5rem;
   }
   #home {
-  background: url(portfoliopic/5172658 (1).jpg) center;
+  background: url('portfoliopic/5172658 (1).jpg') center;
 
 }
 }
@@ -540,6 +541,19 @@ img {
     padding: 1.3rem 0rem;
     height: fit-content;
   }
+  .contact1 h3,
+.contact2 h3{
+  display: none;
+}
+.contact1 .phone .whatsappimg{
+  margin-left: 30%;
+}
+.contact2 .email .emailimg{
+  margin-left: 60%;
+}
+.contact2 .ighandle .whatsappimg{
+  margin-left: 88%;
+}
 }
   
 @media only screen and (max-width: 403px) {
