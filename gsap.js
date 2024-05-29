@@ -1,39 +1,7 @@
 const tl=gsap.timeline()
 gsap.registerPlugin('scrollTrigger');
 // for navigation
-gsap.from('.navigation',{
-    scrollTrigger:{
-        trigger:'.navigation',
-        toogleActions:'restart none restart none',
-        // scrub:1
-    },
-    y:-100,
-    duration:1
-})
-// for introduction section
-gsap.from('.intro .in',{
-    scrollTrigger:{
-        trigger:'.intro .in',
-        toogleActions:'restart none restart none',
-        // scrub:2.3
-    },
-    opacity:0,
-    delay:1.3,
-    duration:1.1,
-    
-})
 
-gsap.from('.skillcontainer h1',{
-    scrollTrigger:{
-        trigger:'.skillcontainer h1',
-        toogleActions:'restart none restart none',
-        // scrub:true
-    },
-    delay:.23,
-    opacity:0,
-    y:-10,
-    duration:1
-})
 // for the html skill
 gsap.from('.skill1',{
     scrollTrigger:{
