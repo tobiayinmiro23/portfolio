@@ -170,3 +170,51 @@ gsap.from('.skill14',{
     opacity:0,
     duration:1
 })
+// for the api skill
+gsap.from('.skill15',{
+    scrollTrigger:{
+        trigger:'.skill14',
+        toogleActions:'restart none restart none',
+        // scrub:true
+    },
+    y:50,
+    delay:.1,
+    opacity:0,
+    duration:1
+})
+// for the api skill
+gsap.from('.skill16',{
+    scrollTrigger:{
+        trigger:'.skill14',
+        toogleActions:'restart none restart none',
+        // scrub:true
+    },
+    y:50,
+    delay:.1,
+    opacity:0,
+    duration:1
+})
+// for the api skill
+gsap.from('.skill17',{
+    scrollTrigger:{
+        trigger:'.skill14',
+        toogleActions:'restart none restart none',
+        // scrub:true
+    },
+    y:50,
+    delay:.1,
+    opacity:0,
+    duration:1
+})
+// for the api skill
+gsap.from('.skill18',{
+    scrollTrigger:{
+        trigger:'.skill14',
+        toogleActions:'restart none restart none',
+        // scrub:true
+    },
+    y:50,
+    delay:.1,
+    opacity:0,
+    duration:1
+})
