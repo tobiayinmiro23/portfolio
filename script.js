@@ -18,7 +18,12 @@ function none(params) {
    naviga.classList.remove('fixed')
 
 }
-
+const ping = () => {
+   fetch('https://courseregistrationbackend.onrender.com')
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
+}
+document.onload = ping
 
 
 
