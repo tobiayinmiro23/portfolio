@@ -189,7 +189,7 @@ a{
 }
 .projctWrapper {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -745,3 +745,4 @@ img {
     margin: 0.45rem;
   }
 }
+
