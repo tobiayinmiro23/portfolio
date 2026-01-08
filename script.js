@@ -19,11 +19,12 @@ function none(params) {
 
 }
 const ping = () => {
-   fetch('https://courseregistrationbackend.onrender.com')
-      .then(res => console.log(res))
-      .catch(err => console.log(err))
+   fetch('https://courseregistrationbackend.onrender.com/')
+   fetch('https://tom-backend-sibt.onrender.com/')
+
 }
-document.onload = ping
+window.addEventListener('DOMContentLoaded', ping)
+
 
 
 
@@ -31,3 +32,4 @@ document.onload = ping
 
 
 // button.addEventListener('click',handle())
+
